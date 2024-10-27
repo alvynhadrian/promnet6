@@ -46,8 +46,7 @@ body{
     font-family: 'poppins', sans-serif;
     color: #000080;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: -10px;
+    padding: 0 30px;
     font-size: 1.5rem;
 }
 
@@ -55,49 +54,7 @@ body{
     font-family: 'poppins', sans-serif;
     text-align: center;
     font: italic;
-}
-
-.pnit{
-    font-family: 'poppins', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    color: #000080;
-
-}
-.panitia{
-    font-family:'poppins', sans-serif;
-    text-align: center;
-}
-
-.orga{
-    font-family: 'poppins', sans-serif;
-    font-weight: 600;
-    color: #000080;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: -10px;
-    font-size: 1.5rem;
-}
-.org{
-    font-family: 'poppins', sans-serif;
-    text-align: center;
-    font: italic;
-}
-
-.ahli{
-    font-family: 'poppins', sans-serif;
-    color: #000080;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: -10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-
-}
-.ahl{
-    font-family: 'poppins', sans-serif;
-    text-align: center;
-    font: italic;
+    margin-bottom: 30px;
 }
 
 .hm{
@@ -118,6 +75,7 @@ body{
     text-align: center;
     font-size: 1rem;
     color: #2E5761;
+    margin-top: 70px;
 }
 .ti{
     font-family: 'poppins', sans-serif;

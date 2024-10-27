@@ -14,45 +14,26 @@
   </head>
 
   <body>
-    <div class="hm">
-      <i class="me" data-feather="home"></i>
-    </div>
-    <div class="inihome">
-      <h3 class="he">HOME</h3>
-    </div>
-    <div class="bio">
-      <p class="welcome">
-        <strong
-          ><span style="color: #295aab"> SELAMAT DATANG </span><br />
-          Di Halaman Profile Saya
-        </strong>
-      </p>
-
-      <p class="saya" style="margin-bottom: 20px; margin-top: 20px">
-        Alvyn Hadrian Nugraha Adalah Seorang Mahasiswa Program Studi
-        <br />Pendidikan Ilmu komputer Universitas Pendidikan Indonesia
-        <br />yang saat ini sedang menempuh Pendidikan Semester 3.
-      </p>
-    </div>
-
-    <div class="me">
-      <p class="all"><strong>All About Me</strong></p>
-      <h3 class="klik"><i>Klik Untuk Mengunjungi Profile</i></h3>
-    </div>
-
+    
     <div class="about">
+      <a
+        href="{% url 'home' %}"
+        class="p"
+        style="text-decoration: none; color: #2e5761"
+        >Home <span style="color: black">|</span></a>
+
       <a
         href="{% url 'education' %}"
         class="p"
-        style="text-decoration: none; color: #2e5761"
+        style="text-decoration: none; color: #295aab"
         >Pendidikan <span style="color: black">|</span></a
       >
       <a
         href="{% url 'committess' %}"
         class="k"
-        style="text-decoration: none; color: #295aab"
-        >Kepanitiaan</a
-      ><br />
+        style="text-decoration: none; color: #2e5761"
+        >Kepanitiaan <span style="color: black">|</span></a
+      >
       <a
         href="{% url 'organization' %}"
         class="o"
@@ -66,6 +47,27 @@
         >Keahlian</a
       >
     </div>
+
+    <div class="bio">
+      <p class="welcome">
+        <strong
+          ><span style="color: #295aab"> SELAMAT DATANG </span><br>
+          Di Halaman Profile Saya
+        </strong>
+      </p>
+
+      <p class="saya" style="margin-bottom: 20px; margin-top: 20px">
+        Alvyn Hadrian Nugraha Adalah Seorang Mahasiswa Program Studi
+        <br />Pendidikan Ilmu komputer Universitas Pendidikan Indonesia
+        <br />yang saat ini sedang menempuh Pendidikan Semester 3.
+      </p>
+    </div>
+
+    <!-- <div class="me">
+      <p class="all"><strong>All About Me</strong></p>
+      <h3 class="klik"><i>Klik Untuk Mengunjungi Profile</i></h3>
+    </div> -->
+
 
     {% block body %} {% endblock %}
 
