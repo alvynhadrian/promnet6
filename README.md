@@ -1,6 +1,6 @@
 # Tugas 6 Mata Kuliah Pemrograman Internet
 
-### Alvyn hadrian Nugraha - 2300498 - 3B
+### Alvyn Hadrian Nugraha - 2300498 - 3B
 
 <br/>
 
