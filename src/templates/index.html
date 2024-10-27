@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Curiculum Vitae {% block title %}{% endblock %}</title>
+    {% load static %}
+    <link href="{% static 'style.css' %}" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="hm">
+      <i class="me" data-feather="home"></i>
+    </div>
+    <div class="inihome">
+      <h3 class="he">HOME</h3>
+    </div>
+    <div class="bio">
+      <p class="welcome">
+        <strong
+          ><span style="color: #295aab"> SELAMAT DATANG </span><br />
+          Di Halaman Profile Saya
+        </strong>
+      </p>
+
+      <p class="saya" style="margin-bottom: 20px; margin-top: 20px">
+        Alvyn Hadrian Nugraha Adalah Seorang Mahasiswa Program Studi
+        <br />Pendidikan Ilmu komputer Universitas Pendidikan Indonesia
+        <br />yang saat ini sedang menempuh Pendidikan Semester 3.
+      </p>
+    </div>
+
+    <div class="me">
+      <p class="all"><strong>All About Me</strong></p>
+      <h3 class="klik"><i>Klik Untuk Mengunjungi Profile</i></h3>
+    </div>
+
+    <div class="about">
+      <a
+        href="{% url 'education' %}"
+        class="p"
+        style="text-decoration: none; color: #2e5761"
+        >Pendidikan <span style="color: black">|</span></a
+      >
+      <a
+        href="{% url 'committess' %}"
+        class="k"
+        style="text-decoration: none; color: #295aab"
+        >Kepanitiaan</a
+      ><br />
+      <a
+        href="{% url 'organization' %}"
+        class="o"
+        style="text-decoration: none; color: #295aab"
+        >Organisasi <span style="color: black">|</span></a
+      >
+      <a
+        href="{% url 'expertise' %}"
+        class="e"
+        style="text-decoration: none; color: #2e5761"
+        >Keahlian</a
+      >
+    </div>
+
+    {% block body %} {% endblock %}
+
+    <div class="info">
+      <h3 class="ti">Information</h3>
+      <a
+        href="https://www.instagram.com/vynnhn_/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i data-feather="instagram"></i>
+      </a>
+
+      <a
+        href="https://www.youtube.com/@alvyn03"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i data-feather="youtube"></i>
+      </a>
+
+      <a href="https://x.com/vynnhn_" target="_blank" rel="noopener noreferrer">
+        <i data-feather="twitter"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/alvyn-hadrian-88910329a/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i data-feather="linkedin"></i>
+      </a>
+
+      <a
+        href="https://github.com/alvynhadrian"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i data-feather="github"></i>
+      </a>
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+
+    <div
+      class="credit"
+      style="
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #2e5761;
+      "
+    >
+      <p>2300498 - Alvyn Hadrian Nugraha | &copy; Pemrograman Internet 2024</p>
+    </div>
+  </body>
+</html>

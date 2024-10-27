@@ -1,0 +1,130 @@
+body{
+    background-color: #deeadc;
+}
+.bio .welcome{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #2E5761;
+}
+.bio .di{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bio .saya{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.me .all{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #2E5761;
+    margin-bottom: -20px;
+}
+.me .klik{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.about{
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 3em;
+    text-align: center;
+}
+
+
+.pdd{
+    font-family: 'poppins', sans-serif;
+    color: #000080;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: -10px;
+    font-size: 1.5rem;
+}
+
+.pddd{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font: italic;
+}
+
+.pnit{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #000080;
+
+}
+.panitia{
+    font-family:'poppins', sans-serif;
+    text-align: center;
+}
+
+.orga{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    color: #000080;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: -10px;
+    font-size: 1.5rem;
+}
+.org{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font: italic;
+}
+
+.ahli{
+    font-family: 'poppins', sans-serif;
+    color: #000080;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: -10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.ahl{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font: italic;
+}
+
+.hm{
+    color: #000080;
+    padding-left: 610px;
+    padding-top: 30px;
+}
+
+.inihome{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: -1.3rem;
+    color:#000080;
+}
+
+.info{
+    text-align: center;
+    font-size: 1rem;
+    color: #2E5761;
+}
+.ti{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.info a{
+    text-decoration: none;
+    color:#000080;
+}
